@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">User_Login</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_college">PDEA\'s College of Engineering, Manjari(Bk.) was established by Pune District Education Association in the year 1998 with a vision to spread engineering knowledge in the rural area. The Institution affiliated by Savitribai Phule Pune University. Today the Institute is recognised as one of the centres of academic excellence in the city Over the years, there has been dynamic progress at C.O.E. Manjari in all academic and research activities, and a parallel improvement in facilities and infrastructure, to keep it on par with the best institutions in Maharashtra. Institutes in positions of excellence grow with time. The ideas and ideals on which such institutes are built evolve and change with national aspirations, national perspectives, and trends world - wide. C.O.E., Manjari , too, is one such institution.</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/collageimage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:fontFamily="@font/latolight"
+            android:text="PDEA's College of Engineering, Manjari(Bk.) was established by Pune District Education Association in the year 1998 with a vision to spread engineering knowledge in the rural area. The Institution affiliated by Savitribai Phule Pune University. Today the Institute is recognised as one of the centres of academic excellence in the city.
+Over the years, there has been dynamic progress at C.O.E. Manjari in all academic and research activities, and a parallel improvement in facilities and infrastructure, to keep it on par with the best institutions in Maharashtra. Institutes in positions of excellence grow with time. The ideas and ideals on which such institutes are built evolve and change with national aspirations, national perspectives, and trends world - wide. C.O.E., Manjari , too, is one such institution."
+            android:textColor="@color/darkcolor"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_lable"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Green Enviroment"
+                android:textColor="@color/darkcolor"
+                android:textSize="@dimen/text_size"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/text_margin"
+            android:fontFamily="@font/latobold"
+            android:text="Courses"
+            android:textColor="@color/darkcolor"
+            android:textSize="@dimen/title_size"
+            android:textStyle="bold" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:foregroundGravity="center"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:contentDescription="Engineering"
+            android:id="@+id/cources"
+            android:layout_marginTop="@dimen/text_margin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/text_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@font/latobold"
+                android:text="Contact Details"
+                android:textColor="@color/darkcolor"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@font/latobold"
+                android:text="PDEA COllege of engineering "
+                android:textColor="@color/darkcolor"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@font/latobold"
+                android:text="Manjari hadapser"
+                android:textColor="@color/darkcolor"
+                android:textSize="@dimen/title_size"
+                android:layout_marginLeft="12dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:padding="20dp"
+                android:src="@drawable/coe">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fontFamily="@font/latobold"
+                android:text="Our Collage"
+                android:textColor="@color/darkcolor"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:padding="20dp"
+                android:id="@+id/map"
+                android:src="@drawable/map">
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

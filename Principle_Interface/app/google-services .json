@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633598999814",
+    "project_id": "pdea-coe-app",
+    "storage_bucket": "pdea-coe-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633598999814:android:d70f186c75bdb036527287",
+        "android_client_info": {
+          "package_name": "com.example.college_dashbord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633598999814-kra6om4smbnrcheqhvpoa1k2uhaoerd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXHmV3Awp3Jq-SycAIqpAF4O_Egbjlr3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633598999814-kra6om4smbnrcheqhvpoa1k2uhaoerd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
